@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-	<div class="input-group">
+	<div class="input-group " style="width: 30rem;">
 		<input
 			type="text"
 			class="form-control"

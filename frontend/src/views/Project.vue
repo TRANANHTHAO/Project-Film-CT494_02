@@ -5,7 +5,7 @@
 		</div>
 		<div class="mt-3 col-md-6">
 			<h4>
-				Danh sách phim được ưa chuộng
+				Danh sách phim ưa chuộng
 				<i class="fa-solid fa-clipboard-list"></i>
 			</h4>
 			<ProjectList
@@ -13,7 +13,7 @@
 				:projects="filteredProjects"
 				v-model:activeIndex="activeIndex"
 			/>
-			<p v-else>Không có phim được ưa chuộng nào.</p>
+			<p v-else>Không có phim ưa chuộng nào.</p>
 			<div class="mt-3 row justify-content-around align-items-center">
 				<button class="btn btn-sm btn-primary" @click="refreshList()">
 					<i class="fas fa-redo"></i> Làm mới
@@ -33,7 +33,7 @@
 		</div>
 		<div class="mt-3 col-md-6">
 			<div v-if="activeProject">
-				<h4 class="card-header bg-secondary text-white">
+				<h4 class="card-header bg-secondary text-white" style="width: 28rem;">
 					Chi tiết phim ưa chuộng
 						<i class="fa-solid fa-clipboard-check"></i>
 				</h4>
@@ -121,9 +121,9 @@ export default {
 		async removeAllProjects() {
 			swalert
 				.fire({
-					title: "Xóa tất cả dự án phim",
+					title: "Xóa tất cả phim ưa chuộng",
 					icon: "warning",
-					text: "Bạn muốn xóa tất cả dự án phim?",
+					text: "Bạn muốn xóa tất cả phim ưa chuộng?",
 					showCloseButton: true,
 					showCancelButton: true,
 				})

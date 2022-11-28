@@ -1,12 +1,12 @@
 <template>
 	
 	<nav class="navbar navbar-expand navbar-dark bg-dark">
-		<a href="/" class="navbar-brand">Ứng dụng Quản lý phim được ưa chuộng </a>
+		<a href="/" class="navbar-brand">Ứng dụng Quản lý phim ưa chuộng </a>
 
 		<div v-if="currentUser" class="mr-auto navbar-nav">
 			<li class="nav-item">
 				<router-link :to="{ name: 'project' }" class="nav-link">
-					Quản lý phim được ưa chuộng
+					Quản lý phim ưa chuộng
 					<i class="fa-solid fa-clipboard-list"></i>
 				</router-link>
 			</li>

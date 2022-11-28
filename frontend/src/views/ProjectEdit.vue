@@ -1,6 +1,6 @@
 <template>
 	<div v-if="project" class="page">
-		<h4 class="card-header bg-info text-white">Chỉnh sửa dự án phim</h4>
+		<h4 class="card-header bg-info text-white">Chỉnh sửa phim ưa chuộng</h4>
 		<ProjectForm
 			:project="project"
 			@submit:project="updateProject"

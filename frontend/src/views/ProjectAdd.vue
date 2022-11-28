@@ -1,7 +1,7 @@
 <template>
 	<div class="page bg-light">
 		<div>
-			<h4 class="card-header bg-info text-white">Thêm dự án phim</h4>
+			<h4 class="card-header bg-info text-white">Thêm phim ưa chuộng</h4>
 			<ProjectForm
 				:project="{}"
 				:resetAfterSubmit="false"

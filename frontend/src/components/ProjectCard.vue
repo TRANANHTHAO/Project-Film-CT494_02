@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-	<div class="card text-white bg-dark">
+	<div class="card text-white bg-dark" style="width: 30rem;">
 		<div class="card-body">
   
 			<div class="p-1">

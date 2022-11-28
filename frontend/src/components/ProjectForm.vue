@@ -21,7 +21,7 @@
 				</div>
 				<div class="form-group">
 					<label for="decripsion">Mô tả phim:</label>
-					<textarea v-model="projectLocal.decripsion" class="form-control" placeholder="Nhập vào mô tả của dự án"></textarea>
+					<textarea v-model="projectLocal.decripsion" class="form-control" placeholder="Nhập vào mô tả của phim"></textarea>
 
 					<ErrorMessage name="decripsion" class="error-feedback" />
 				</div>
